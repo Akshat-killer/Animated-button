@@ -1,0 +1,40 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+button {
+    
+    color: blueviolet;
+    background-color: #f1f2f3;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    transition-duration: 2s;
+    transition-property: all;
+    border: 3px solid black;
+    
+}
+
+button:hover {
+    transform: scale(1.2) rotateZ(360deg);
+    background-color: orange;
+    border: 5px solid blue;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    box-shadow: 3px 3px 8px 2px yellowgreen;
+    color: white;
+    text-shadow: 2px 3px black;
+
+}
+
+p {
+    transition-duration: 2s;
+}
+
+button:hover p{
+    transform: rotateY(360deg);
+}
